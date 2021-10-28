@@ -10,11 +10,28 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" Content="Test"></Button>
+        <Button Grid.Column="0" Grid.Row="0" Content="1"></Button>
+        <Button Grid.Column="1" Grid.Row="0" Content="2"></Button>
+        <Button Grid.Column="2" Grid.Row="0" Content="3"></Button>
+        <Button Grid.Column="0" Grid.Row="1" Content="4"></Button>
+        <Button Grid.Column="1" Grid.Row="1" Content="5"></Button>
+        <Button Grid.Column="2" Grid.Row="1" Content="6"></Button>
+        <Button Grid.Column="0" Grid.Row="2" Content="7"></Button>
+        <Button Grid.Column="1" Grid.Row="2" Content="8"></Button>
+        <Button Grid.Column="2" Grid.Row="2" Content="9"></Button>
+        <Button Grid.Column="3" Grid.Row="0" Content="+"></Button>
+        <Button Grid.Column="3" Grid.Row="1" Content="-"></Button>
+        <Button Grid.Column="3" Grid.Row="2" Content="="></Button>
+        <Label Grid.Column="0" Grid.Row="3" Content="Result"></Label>
+        <Label Grid.Column="1" Grid.Row="3" Content=""></Label>
     </Grid>
 </Window>
